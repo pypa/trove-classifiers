@@ -14,10 +14,10 @@ def test_nested_prefixes():
         ]
     )
 
-    assert root.generate() == [
-        ClassifierNode("Foo"),
-        ClassifierNode("Foo :: Bar"),
-        ClassifierNode("Foo :: Bar :: Baz"),
+    assert [node.full_name for node in root.generate()] == [
+        "Foo",
+        "Foo :: Bar",
+        "Foo :: Bar :: Baz",
     ]
 
 
@@ -32,9 +32,9 @@ def test_skip():
         ]
     )
 
-    assert root.generate() == [
-        ClassifierNode("Foo :: Bar"),
-        ClassifierNode("Foo :: Bar :: Baz"),
+    assert [node.full_name for node in root.generate()] == [
+        "Foo :: Bar",
+        "Foo :: Bar :: Baz",
     ]
 
 
