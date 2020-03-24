@@ -4,7 +4,7 @@ import datetime
 
 from jinja2 import Template
 
-from classifiers import classifiers
+from .classifiers import classifiers
 
 parser = argparse.ArgumentParser()
 parser.add_argument(

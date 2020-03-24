@@ -11,12 +11,12 @@ BINDIR = $(PWD)/.state/env/bin
 	$(BINDIR)/python -m pip install -r requirements/dev.txt
 
 build: .state/env/pyvenv.cfg
-	$(BINDIR)/python _internal/generator.py
+	$(BINDIR)/python -m _internal.generator
 
 test: .state/env/pyvenv.cfg
 	$(BINDIR)/pytest
 	$(eval TMPDIR := $(shell mktemp -d))
-	$(BINDIR)/python _internal/generator.py --output $(TMPDIR)/test.py
+	$(BINDIR)/python -m _internal.generator --output $(TMPDIR)/test.py
 	diff trove_classifiers/__init__.py $(TMPDIR)/test.py
 
 lint: .state/env/pyvenv.cfg

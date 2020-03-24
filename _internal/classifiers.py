@@ -1,4 +1,4 @@
-from models import ClassifierRoot, ClassifierNode
+from .models import ClassifierRoot, ClassifierNode
 
 classifiers = ClassifierRoot(
     children=[

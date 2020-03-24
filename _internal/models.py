@@ -1,4 +1,4 @@
-from _internal.exceptions import InvalidClassifier
+from .exceptions import InvalidClassifier
 
 
 class ClassifierRoot:
