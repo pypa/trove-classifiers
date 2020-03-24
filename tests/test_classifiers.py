@@ -68,3 +68,11 @@ def test_whitespace_classifier_failure(classifier):
     assert excinfo.value.args == (
         "Classifiers starting or ending with whitespace are invalid",
     )
+
+
+@pytest.mark.parametrize("classifier", ["Foo:", "Foo :: Bar"])
+def test_colon_classifier_failure(classifier):
+    with pytest.raises(InvalidClassifier) as excinfo:
+        ClassifierNode(classifier)
+
+    assert excinfo.value.args == ("Classifiers containing ':' are invalid",)

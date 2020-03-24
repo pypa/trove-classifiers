@@ -38,6 +38,9 @@ class ClassifierNode:
                 "Classifiers starting or ending with whitespace are invalid"
             )
 
+        if ":" in short_name:
+            raise InvalidClassifier("Classifiers containing ':' are invalid")
+
         self.short_name = short_name
         self.prefix_list = []
         self.deprecated = deprecated
