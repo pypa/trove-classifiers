@@ -1,6 +1,7 @@
 import pytest
 
 from _internal.models import ClassifierRoot, ClassifierNode
+from _internal.exceptions import InvalidClassifier
 
 
 def test_nested_prefixes():
@@ -38,5 +39,9 @@ def test_skip():
 
 
 def test_bad_deprecation_failure():
-    with pytest.raises(Exception):
+    with pytest.raises(InvalidClassifier) as excinfo:
         ClassifierNode("blah", deprecated_by=["spam"])
+
+    assert excinfo.value.args == (
+        "Using deprecated_by, but not marking the classifier as deprecated",
+    )

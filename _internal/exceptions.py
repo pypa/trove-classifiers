@@ -1,0 +1,2 @@
+class InvalidClassifier(Exception):
+    pass
