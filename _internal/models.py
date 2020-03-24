@@ -1,3 +1,6 @@
+from .exceptions import InvalidClassifier
+
+
 class ClassifierRoot:
     def __init__(self, children):
         self.children = children
@@ -23,9 +26,20 @@ class ClassifierNode:
         skip=False,
     ):
         if deprecated_by and not deprecated:
-            raise Exception(
+            raise InvalidClassifier(
                 "Using deprecated_by, but not marking the classifier as deprecated"
             )
+
+        if short_name.lower().startswith("private"):
+            raise InvalidClassifier("Classifiers starting with 'Private' are invalid")
+
+        if short_name.strip().rstrip() != short_name:
+            raise InvalidClassifier(
+                "Classifiers starting or ending with whitespace are invalid"
+            )
+
+        if ":" in short_name:
+            raise InvalidClassifier("Classifiers containing ':' are invalid")
 
         self.short_name = short_name
         self.prefix_list = []
