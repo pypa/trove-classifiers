@@ -58,3 +58,13 @@ def test_private_classifier_failure(parent, child):
         )
 
     assert excinfo.value.args == ("Classifiers starting with 'Private' are invalid",)
+
+
+@pytest.mark.parametrize("classifier", [" Foo", "Foo "])
+def test_whitespace_classifier_failure(classifier):
+    with pytest.raises(InvalidClassifier) as excinfo:
+        ClassifierNode(classifier)
+
+    assert excinfo.value.args == (
+        "Classifiers starting or ending with whitespace are invalid",
+    )

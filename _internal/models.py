@@ -33,6 +33,11 @@ class ClassifierNode:
         if short_name.lower().startswith("private"):
             raise InvalidClassifier("Classifiers starting with 'Private' are invalid")
 
+        if short_name.strip().rstrip() != short_name:
+            raise InvalidClassifier(
+                "Classifiers starting or ending with whitespace are invalid"
+            )
+
         self.short_name = short_name
         self.prefix_list = []
         self.deprecated = deprecated
