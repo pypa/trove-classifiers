@@ -3,8 +3,6 @@ from os import path
 
 from setuptools import setup, find_packages
 
-from trove_classifiers import classifiers
-
 here = path.abspath(path.dirname(__file__))
 
 # Get the long description from the README file
