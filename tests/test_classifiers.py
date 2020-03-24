@@ -45,3 +45,16 @@ def test_bad_deprecation_failure():
     assert excinfo.value.args == (
         "Using deprecated_by, but not marking the classifier as deprecated",
     )
+
+
+@pytest.mark.parametrize(
+    "parent, child",
+    [("Private", "Foo"), ("private", "Foo"), ("Foo", "Private"), ("Foo", "private"),],
+)
+def test_private_classifier_failure(parent, child):
+    with pytest.raises(InvalidClassifier) as excinfo:
+        ClassifierNode(
+            parent, children=[ClassifierNode(child)],
+        )
+
+    assert excinfo.value.args == ("Classifiers starting with 'Private' are invalid",)

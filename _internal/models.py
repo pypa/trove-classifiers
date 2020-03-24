@@ -30,6 +30,9 @@ class ClassifierNode:
                 "Using deprecated_by, but not marking the classifier as deprecated"
             )
 
+        if short_name.lower().startswith("private"):
+            raise InvalidClassifier("Classifiers starting with 'Private' are invalid")
+
         self.short_name = short_name
         self.prefix_list = []
         self.deprecated = deprecated
