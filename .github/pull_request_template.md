@@ -1,14 +1,6 @@
----
-name: New Trove Classifier
-title: New Trove Classifier
-about: Request a new trove classifier
-labels: classifier request
-
----
-
 Request to add a new Trove classifier.
 
-## The name of the classifier(s) you would like to add
+## The name of the classifier(s) you would like to add:
 
 <!-- Replace the following with the name of your classifier -->
 * `Your :: Trove :: Classifier`
