@@ -703,6 +703,6 @@ classifiers = {
 }
 
 deprecated_classifiers = {
-    "Natural Language :: Ukranian": ['Natural Language :: Ukrainian'],
+    "Natural Language :: Ukranian": ["Natural Language :: Ukrainian"],
     "Topic :: Communications :: Chat :: AOL Instant Messenger": [],
 }
