@@ -10,19 +10,14 @@ BINDIR = $(PWD)/.state/env/bin
 	# install various types of requirements
 	$(BINDIR)/python -m pip install -r requirements/dev.txt
 
-build: .state/env/pyvenv.cfg
-	$(BINDIR)/python -m _internal.generator
-
 test: .state/env/pyvenv.cfg
 	$(BINDIR)/pytest
-	$(eval TMPDIR := $(shell mktemp -d))
-	$(BINDIR)/python -m _internal.generator --output $(TMPDIR)/test.py
-	diff trove_classifiers/__init__.py $(TMPDIR)/test.py
+	$(BINDIR)/python -m tester
 
 lint: .state/env/pyvenv.cfg
-	$(BINDIR)/black --check _internal tests
+	$(BINDIR)/black --check tests tester trove_classifiers
 
 reformat: .state/env/pyvenv.cfg
-	$(BINDIR)/black _internal tests
+	$(BINDIR)/black tests tester trove_classifiers
 
 .PHONY: build test lint reformat
