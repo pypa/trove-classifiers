@@ -2,7 +2,7 @@ class InvalidClassifier(Exception):
     pass
 
 
-def trove_tester(classifiers, deprecated_classifiers=None):
+def trove_tester(classifiers, deprecated_classifiers):
     # Check the classifiers
     for classifier in classifiers:
         split = classifier.split(" :: ")
@@ -37,21 +37,17 @@ def trove_tester(classifiers, deprecated_classifiers=None):
                 raise InvalidClassifier("Classifiers containing ':' are invalid")
 
     # Check the deprecated classifiers
-    if deprecated_classifiers:
+    for deprecated_classifier, deprecated_by in deprecated_classifiers.items():
 
-        for deprecated_classifier, deprecated_by in deprecated_classifiers.items():
+        # Check if the classifier is in both lists
+        if deprecated_classifier in classifiers:
+            raise InvalidClassifier(
+                f"Classifier {deprecated_classifier!r} in both valid and deprecated classifiers"
+            )
 
-            # Check if the classifier is in both lists
-            if deprecated_classifier in classifiers:
-                raise InvalidClassifier(
-                    f"Classifier {deprecated_classifier!r} in both valid and deprecated classifiers"
-                )
-
-            # Check if all deprecated_by classifiers exist
-            for new_classifier in deprecated_by:
-                if new_classifier not in classifiers:
-                    raise InvalidClassifier(
-                        f"Classifier {new_classifier!r} does not exist"
-                    )
+        # Check if all deprecated_by classifiers exist
+        for new_classifier in deprecated_by:
+            if new_classifier not in classifiers:
+                raise InvalidClassifier(f"Classifier {new_classifier!r} does not exist")
 
     print("All classifiers passed :)")
