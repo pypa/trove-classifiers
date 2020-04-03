@@ -1,6 +1,18 @@
-Cannonical source for classifiers on [PyPI](https://pypi.org).
+Canonical source for [classifiers](https://pypi.org/classifiers/) on
+[PyPI](https://pypi.org). Classifiers [categorize
+projects](https://packaging.python.org/specifications/core-metadata/#classifier-multiple-use)
+per [PEP 301](https://www.python.org/dev/peps/pep-0301/). Use this
+package to validate classifiers in packages for PyPI upload or
+download.
 
 ## Usage
+
+To install [from PyPI](https://pypi.org/project/trove-classifiers/):
+
+```
+> pip install trove-classifiers
+```
+
 This package's API is two importable objects:
 
 ### Classifiers (`trove_classifiers.classifiers`)
