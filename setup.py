@@ -15,7 +15,7 @@ setup(
     description="Cannonical source for classifiers on PyPI (pypi.org).",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/packaging-classifiers",
+    url="https://github.com/pypa/trove-classifiers",
     author="The PyPI Admins",
     author_email="admin@pypi.org",
     classifiers=[
