@@ -1,3 +1,4 @@
+# A set of classifier names
 classifiers = {
     "Development Status :: 1 - Planning",
     "Development Status :: 2 - Pre-Alpha",
@@ -699,6 +700,8 @@ classifiers = {
     "Typing :: Typed",
 }
 
+# A mapping from the deprecated classifier name to a list of zero or more valid
+# classifiers that should replace it
 deprecated_classifiers = {
     "Natural Language :: Ukranian": ["Natural Language :: Ukrainian"],
     "Topic :: Communications :: Chat :: AOL Instant Messenger": [],
