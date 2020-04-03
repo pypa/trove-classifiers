@@ -12,7 +12,7 @@ with open(path.join(here, "README.md"), encoding="utf-8") as f:
 setup(
     name='trove-classifiers',
     version='2020.04.01',
-    description="Cannonical source for classifiers on PyPI (pypi.org).",
+    description="Canonical source for classifiers on PyPI (pypi.org).",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/pypa/trove-classifiers",
