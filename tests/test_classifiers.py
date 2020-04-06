@@ -1,6 +1,6 @@
 import pytest
 
-from tester import trove_tester, InvalidClassifier
+from tests.lib import trove_tester, InvalidClassifier
 
 
 @pytest.mark.parametrize(

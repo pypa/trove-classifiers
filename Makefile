@@ -12,12 +12,12 @@ BINDIR = $(PWD)/.state/env/bin
 
 test: .state/env/pyvenv.cfg
 	$(BINDIR)/pytest
-	$(BINDIR)/python -m tester
+	$(BINDIR)/python -m tests.lib
 
 lint: .state/env/pyvenv.cfg
-	$(BINDIR)/black --check tests tester trove_classifiers
+	$(BINDIR)/black --check tests trove_classifiers
 
 reformat: .state/env/pyvenv.cfg
-	$(BINDIR)/black tests tester trove_classifiers
+	$(BINDIR)/black tests trove_classifiers
 
 .PHONY: build test lint reformat
