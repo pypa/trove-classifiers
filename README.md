@@ -11,7 +11,14 @@ To install [from PyPI][5]:
 $ pip install trove-classifiers
 ```
 
-This package's API is two importable objects:
+This package can be invoked as a module to print a list of classifiers:
+
+```
+$ python -m trove_classifiers | grep -Ei pyramid
+Framework :: Pyramid
+```
+
+In addition, this package's API is two importable objects:
 
 ### Classifiers (`trove_classifiers.classifiers`)
 A `set` containing classifiers (as strings). Useful for determining membership.
