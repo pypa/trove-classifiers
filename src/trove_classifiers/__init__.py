@@ -77,6 +77,7 @@ sorted_classifiers = [
     "Framework :: CastleCMS :: Theme",
     "Framework :: Chandler",
     "Framework :: CherryPy",
+    "Framework :: cocotb",
     "Framework :: CubicWeb",
     "Framework :: Dash",
     "Framework :: Django",
