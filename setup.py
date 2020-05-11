@@ -11,7 +11,7 @@ with open(path.join(here, "README.md"), encoding="utf-8") as f:
 
 setup(
     name='trove-classifiers',
-    version='2020.04.09',
+    version='2020.05.11',
     description="Canonical source for classifiers on PyPI (pypi.org).",
     long_description=long_description,
     long_description_content_type="text/markdown",
