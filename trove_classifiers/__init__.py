@@ -348,6 +348,7 @@ classifiers = {
     "Operating System :: POSIX :: SunOS/Solaris",
     "Operating System :: PalmOS",
     "Operating System :: Unix",
+    "Operating System :: RISC OS",
     "Operating System :: iOS",
     "Programming Language :: APL",
     "Programming Language :: ASP",
