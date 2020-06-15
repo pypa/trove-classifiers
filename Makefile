@@ -16,6 +16,7 @@ test: .state/env/pyvenv.cfg
 
 lint: .state/env/pyvenv.cfg
 	$(BINDIR)/black --check tests trove_classifiers
+	$(BINDIR)/python bin/sort.py trove_classifiers/__init__.py
 
 reformat: .state/env/pyvenv.cfg
 	$(BINDIR)/black tests trove_classifiers
