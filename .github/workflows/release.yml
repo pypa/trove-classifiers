@@ -1,0 +1,28 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: '3.x'
+    - name: Lint
+      run: make lint
+    - name: Test
+      run: make test
+    - name: Install build dependencies
+      run: pip install -U setuptools wheel build calver
+    - name: Build
+      run: python -m build .
+    - name: Publish
+      uses: pypa/gh-action-pypi-publish@master
+      with:
+        password: ${{ secrets.pypi_password }}
