@@ -347,6 +347,7 @@ classifiers = {
     "Operating System :: POSIX :: SCO",
     "Operating System :: POSIX :: SunOS/Solaris",
     "Operating System :: PalmOS",
+    "Operating System :: RISC OS",
     "Operating System :: Unix",
     "Operating System :: iOS",
     "Programming Language :: APL",
