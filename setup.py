@@ -24,7 +24,8 @@ setup(
         'Programming Language :: Python :: 3',
     ],
     keywords="classifiers",
-    packages=find_packages(),
+    package_dir={"": "src"},
+    packages=find_packages(where="src"),
     use_calver=True,
     setup_requires=["calver"],
 )
