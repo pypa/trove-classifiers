@@ -375,6 +375,7 @@ classifiers = {
     "Programming Language :: Haskell",
     "Programming Language :: Java",
     "Programming Language :: JavaScript",
+    "Programming Language :: Kotlin",
     "Programming Language :: Lisp",
     "Programming Language :: Logo",
     "Programming Language :: ML",
