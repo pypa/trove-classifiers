@@ -11,14 +11,15 @@ BINDIR = $(PWD)/.state/env/bin
 	$(BINDIR)/python -m pip install -r requirements/dev.txt
 
 test: .state/env/pyvenv.cfg
+	$(BINDIR)/python -m pip install .
 	$(BINDIR)/pytest
 	$(BINDIR)/python -m tests.lib
 
 lint: .state/env/pyvenv.cfg
-	$(BINDIR)/black --check tests trove_classifiers
-	$(BINDIR)/python bin/sort.py trove_classifiers/__init__.py
+	$(BINDIR)/black --check tests src
+	$(BINDIR)/python bin/sort.py src/trove_classifiers/__init__.py
 
 reformat: .state/env/pyvenv.cfg
-	$(BINDIR)/black tests trove_classifiers
+	$(BINDIR)/black tests src
 
 .PHONY: build test lint reformat
