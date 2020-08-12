@@ -59,6 +59,8 @@ classifiers = {
     "Environment :: X11 Applications :: Gnome",
     "Environment :: X11 Applications :: KDE",
     "Environment :: X11 Applications :: Qt",
+    "Framework :: AWS CDK",
+    "Framework :: AWS CDK :: 1",
     "Framework :: AiiDA",
     "Framework :: AsyncIO",
     "Framework :: BEAT",

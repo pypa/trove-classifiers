@@ -2,7 +2,7 @@
 How to contributing to this package.
 
 ## Running tests
-Run `make tests`. This checks whether the auto-generated list of classifiers
+Run `make test`. This checks whether the auto-generated list of classifiers
 matches the input source.
 
 ## Running linting
