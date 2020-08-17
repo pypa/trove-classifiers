@@ -728,6 +728,7 @@ classifiers = {
     "Topic :: Text Processing :: Markup",
     "Topic :: Text Processing :: Markup :: HTML",
     "Topic :: Text Processing :: Markup :: LaTeX",
+    "Topic :: Text Processing :: Markup :: Markdown",
     "Topic :: Text Processing :: Markup :: SGML",
     "Topic :: Text Processing :: Markup :: VRML",
     "Topic :: Text Processing :: Markup :: XML",
