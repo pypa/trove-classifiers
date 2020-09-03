@@ -6,7 +6,13 @@ from tests.lib import trove_tester, InvalidClassifier
 @pytest.mark.parametrize(
     "classifiers, deprecated_classifiers",
     [
-        ({"Foo :: Bar", "Foo :: Bar :: Baz",}, {}),
+        (
+            {
+                "Foo :: Bar",
+                "Foo :: Bar :: Baz",
+            },
+            {},
+        ),
         ({"Foo :: Bar"}, {"Biz :: Baz": ["Foo :: Bar"]}),
     ],
 )
@@ -17,15 +23,23 @@ def test_success(classifiers, deprecated_classifiers):
 @pytest.mark.parametrize(
     "classifiers, deprecated_classifiers, expected",
     [
-        ({"Foo", "Foo :: Bar"}, {}, "Top-level classifier 'Foo' is invalid",),
+        (
+            {"Foo", "Foo :: Bar"},
+            {},
+            "Top-level classifier 'Foo' is invalid",
+        ),
         ({"Foo :: Bar :: Baz"}, {}, "Classifier 'Foo :: Bar' is missing"),
         (
-            {"Foo :: Bar",},
+            {
+                "Foo :: Bar",
+            },
             {"Biz :: Baz": ["Bing :: Bang"]},
             "Classifier 'Bing :: Bang' does not exist",
         ),
         (
-            {"Foo :: Bar",},
+            {
+                "Foo :: Bar",
+            },
             {"Foo :: Bar": []},
             "Classifier 'Foo :: Bar' in both valid and deprecated classifiers",
         ),
@@ -43,9 +57,21 @@ def test_success(classifiers, deprecated_classifiers):
             {},
             "Classifiers starting or ending with whitespace are invalid",
         ),
-        ({"Foo: :: Bar"}, {}, "Classifiers containing ':' are invalid",),
-        ({"Foo :: B:ar"}, {}, "Classifiers containing ':' are invalid",),
-        ({"Foo :: Bar: Baz"}, {}, "Classifiers containing ':' are invalid",),
+        (
+            {"Foo: :: Bar"},
+            {},
+            "Classifiers containing ':' are invalid",
+        ),
+        (
+            {"Foo :: B:ar"},
+            {},
+            "Classifiers containing ':' are invalid",
+        ),
+        (
+            {"Foo :: Bar: Baz"},
+            {},
+            "Classifiers containing ':' are invalid",
+        ),
     ],
 )
 def test_failure(classifiers, deprecated_classifiers, expected):
