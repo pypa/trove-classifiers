@@ -102,6 +102,7 @@ classifiers = {
     "Framework :: IDLE",
     "Framework :: IPython",
     "Framework :: Jupyter",
+    "Framework :: Kedro",
     "Framework :: Lektor",
     "Framework :: Masonite",
     "Framework :: Matplotlib",
