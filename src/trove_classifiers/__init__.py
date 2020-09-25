@@ -244,6 +244,7 @@ classifiers = {
     "License :: OSI Approved :: Sleepycat License",
     "License :: OSI Approved :: Sun Industry Standards Source License (SISSL)",
     "License :: OSI Approved :: Sun Public License",
+    "License :: OSI Approved :: The Unlicense",
     "License :: OSI Approved :: Universal Permissive License (UPL)",
     "License :: OSI Approved :: University of Illinois/NCSA Open Source License",
     "License :: OSI Approved :: Vovida Software License 1.0",
