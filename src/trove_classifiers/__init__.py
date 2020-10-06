@@ -20,6 +20,7 @@ classifiers = {
     "Environment :: GPU :: NVIDIA CUDA :: 10.1",
     "Environment :: GPU :: NVIDIA CUDA :: 10.2",
     "Environment :: GPU :: NVIDIA CUDA :: 11.0",
+    "Environment :: GPU :: NVIDIA CUDA :: 11.1",
     "Environment :: GPU :: NVIDIA CUDA :: 2.0",
     "Environment :: GPU :: NVIDIA CUDA :: 2.1",
     "Environment :: GPU :: NVIDIA CUDA :: 2.2",
