@@ -159,6 +159,7 @@ classifiers = {
     "Framework :: Zope :: 5",
     "Framework :: Zope2",
     "Framework :: Zope3",
+    "Framework :: napari",
     "Framework :: tox",
     "Intended Audience :: Customer Service",
     "Intended Audience :: Developers",
