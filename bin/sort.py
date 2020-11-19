@@ -24,6 +24,8 @@ with open(sys.argv[1]) as f:
 fail = False
 
 for node in ast.walk(ast.parse(contents)):
+    if type(node) == ast.List:
+        fail = _test_sort(node.elts, "List") or fail
     if type(node) == ast.Set:
         fail = _test_sort(node.elts, "Set") or fail
     if type(node) == ast.Dict:

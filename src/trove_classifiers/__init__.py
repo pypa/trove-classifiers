@@ -1,7 +1,7 @@
 from natsort import natsorted
 
 # A set of classifier names
-classifiers = {
+sorted_classifiers = [
     "Development Status :: 1 - Planning",
     "Development Status :: 2 - Pre-Alpha",
     "Development Status :: 3 - Alpha",
@@ -759,7 +759,10 @@ classifiers = {
     "Topic :: Text Processing :: Markup :: reStructuredText",
     "Topic :: Utilities",
     "Typing :: Typed",
-}
+]
+
+classifiers = set(sorted_classifiers)
+
 
 # A mapping from the deprecated classifier name to a list of zero or more valid
 # classifiers that should replace it

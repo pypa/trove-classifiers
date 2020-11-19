@@ -1,4 +1,4 @@
-from trove_classifiers import classifiers, classifiers_sorted
+from trove_classifiers import sorted_classifiers
 
-for classifier in classifiers_sorted(classifiers):
+for classifier in sorted_classifiers:
     print(classifier)
