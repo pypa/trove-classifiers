@@ -63,6 +63,7 @@ classifiers = {
     "Framework :: AWS CDK",
     "Framework :: AWS CDK :: 1",
     "Framework :: AiiDA",
+    "Framework :: Ansible",
     "Framework :: AsyncIO",
     "Framework :: BEAT",
     "Framework :: BFG",
