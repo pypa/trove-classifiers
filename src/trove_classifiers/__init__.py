@@ -228,7 +228,7 @@ classifiers = {
     "License :: OSI Approved :: Intel Open Source License",
     "License :: OSI Approved :: Jabber Open Source License",
     "License :: OSI Approved :: MIT License",
-    "License :: OSI Approved :: MIT No Attribution License",
+    "License :: OSI Approved :: MIT No Attribution License (MIT-0)",
     "License :: OSI Approved :: MITRE Collaborative Virtual Workspace License (CVW)",
     "License :: OSI Approved :: MirOS License (MirOS)",
     "License :: OSI Approved :: Motosoto License",
