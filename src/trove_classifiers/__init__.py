@@ -138,6 +138,7 @@ classifiers = {
     "Framework :: Robot Framework",
     "Framework :: Robot Framework :: Library",
     "Framework :: Robot Framework :: Tool",
+    "Framework :: SEAMM",
     "Framework :: Scrapy",
     "Framework :: Setuptools Plugin",
     "Framework :: Sphinx",
