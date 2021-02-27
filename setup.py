@@ -27,5 +27,5 @@ setup(
     package_dir={"": "src"},
     packages=find_packages(where="src"),
     use_calver=True,
-    setup_requires=["calver", "natsort"],
+    setup_requires=["calver"],
 )

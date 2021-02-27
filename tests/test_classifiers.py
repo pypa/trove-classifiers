@@ -1,6 +1,5 @@
 import pytest
 
-from trove_classifiers import classifiers_sorted
 from tests.lib import trove_tester, InvalidClassifier
 
 
@@ -80,44 +79,3 @@ def test_failure(classifiers, deprecated_classifiers, expected):
         trove_tester(classifiers, deprecated_classifiers)
 
     assert excinfo.value.args == (expected,)
-
-
-def test_sort():
-    # Arrange
-    # In lexicographical order: 3.1, 3.10, 3.2
-    classifiers = {
-        "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3 :: Only",
-        "Programming Language :: Python :: 3.0",
-        "Programming Language :: Python :: 3.1",
-        "Programming Language :: Python :: 3.10",
-        "Programming Language :: Python :: 3.2",
-        "Programming Language :: Python :: 3.3",
-        "Programming Language :: Python :: 3.4",
-        "Programming Language :: Python :: 3.5",
-        "Programming Language :: Python :: 3.6",
-        "Programming Language :: Python :: 3.7",
-        "Programming Language :: Python :: 3.8",
-        "Programming Language :: Python :: 3.9",
-    }
-
-    # Act
-    output = classifiers_sorted(classifiers)
-
-    # Assert
-    # With sorted version numbers: 3.8, 3.9, 3.10
-    assert output == [
-        "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3 :: Only",
-        "Programming Language :: Python :: 3.0",
-        "Programming Language :: Python :: 3.1",
-        "Programming Language :: Python :: 3.2",
-        "Programming Language :: Python :: 3.3",
-        "Programming Language :: Python :: 3.4",
-        "Programming Language :: Python :: 3.5",
-        "Programming Language :: Python :: 3.6",
-        "Programming Language :: Python :: 3.7",
-        "Programming Language :: Python :: 3.8",
-        "Programming Language :: Python :: 3.9",
-        "Programming Language :: Python :: 3.10",
-    ]

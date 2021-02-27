@@ -1,5 +1,3 @@
-from natsort import natsorted
-
 # A set of classifier names
 sorted_classifiers = [
     "Development Status :: 1 - Planning",
@@ -770,7 +768,3 @@ deprecated_classifiers = {
     "Natural Language :: Ukranian": ["Natural Language :: Ukrainian"],
     "Topic :: Communications :: Chat :: AOL Instant Messenger": [],
 }
-
-
-def classifiers_sorted(classifiers):
-    return natsorted(classifiers)
