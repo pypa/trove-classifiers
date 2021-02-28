@@ -1,5 +1,5 @@
 # A set of classifier names
-classifiers = {
+sorted_classifiers = [
     "Development Status :: 1 - Planning",
     "Development Status :: 2 - Pre-Alpha",
     "Development Status :: 3 - Alpha",
@@ -16,11 +16,6 @@ classifiers = {
     "Environment :: GPU :: NVIDIA CUDA",
     "Environment :: GPU :: NVIDIA CUDA :: 1.0",
     "Environment :: GPU :: NVIDIA CUDA :: 1.1",
-    "Environment :: GPU :: NVIDIA CUDA :: 10.0",
-    "Environment :: GPU :: NVIDIA CUDA :: 10.1",
-    "Environment :: GPU :: NVIDIA CUDA :: 10.2",
-    "Environment :: GPU :: NVIDIA CUDA :: 11.0",
-    "Environment :: GPU :: NVIDIA CUDA :: 11.1",
     "Environment :: GPU :: NVIDIA CUDA :: 2.0",
     "Environment :: GPU :: NVIDIA CUDA :: 2.1",
     "Environment :: GPU :: NVIDIA CUDA :: 2.2",
@@ -41,6 +36,11 @@ classifiers = {
     "Environment :: GPU :: NVIDIA CUDA :: 9.0",
     "Environment :: GPU :: NVIDIA CUDA :: 9.1",
     "Environment :: GPU :: NVIDIA CUDA :: 9.2",
+    "Environment :: GPU :: NVIDIA CUDA :: 10.0",
+    "Environment :: GPU :: NVIDIA CUDA :: 10.1",
+    "Environment :: GPU :: NVIDIA CUDA :: 10.2",
+    "Environment :: GPU :: NVIDIA CUDA :: 11.0",
+    "Environment :: GPU :: NVIDIA CUDA :: 11.1",
     "Environment :: Handhelds/PDA's",
     "Environment :: MacOS X",
     "Environment :: MacOS X :: Aqua",
@@ -79,14 +79,14 @@ classifiers = {
     "Framework :: CubicWeb",
     "Framework :: Dash",
     "Framework :: Django",
-    "Framework :: Django :: 1.10",
-    "Framework :: Django :: 1.11",
     "Framework :: Django :: 1.4",
     "Framework :: Django :: 1.5",
     "Framework :: Django :: 1.6",
     "Framework :: Django :: 1.7",
     "Framework :: Django :: 1.8",
     "Framework :: Django :: 1.9",
+    "Framework :: Django :: 1.10",
+    "Framework :: Django :: 1.11",
     "Framework :: Django :: 2.0",
     "Framework :: Django :: 2.1",
     "Framework :: Django :: 2.2",
@@ -155,12 +155,12 @@ classifiers = {
     "Framework :: Wagtail :: 2",
     "Framework :: ZODB",
     "Framework :: Zope",
+    "Framework :: Zope2",
+    "Framework :: Zope3",
     "Framework :: Zope :: 2",
     "Framework :: Zope :: 3",
     "Framework :: Zope :: 4",
     "Framework :: Zope :: 5",
-    "Framework :: Zope2",
-    "Framework :: Zope3",
     "Framework :: napari",
     "Framework :: tox",
     "Intended Audience :: Customer Service",
@@ -327,11 +327,11 @@ classifiers = {
     "Operating System :: Microsoft",
     "Operating System :: Microsoft :: MS-DOS",
     "Operating System :: Microsoft :: Windows",
-    "Operating System :: Microsoft :: Windows :: Windows 10",
     "Operating System :: Microsoft :: Windows :: Windows 3.1 or Earlier",
     "Operating System :: Microsoft :: Windows :: Windows 7",
     "Operating System :: Microsoft :: Windows :: Windows 8",
     "Operating System :: Microsoft :: Windows :: Windows 8.1",
+    "Operating System :: Microsoft :: Windows :: Windows 10",
     "Operating System :: Microsoft :: Windows :: Windows 95/98/2000",
     "Operating System :: Microsoft :: Windows :: Windows CE",
     "Operating System :: Microsoft :: Windows :: Windows NT/2000",
@@ -415,7 +415,6 @@ classifiers = {
     "Programming Language :: Python :: 3 :: Only",
     "Programming Language :: Python :: 3.0",
     "Programming Language :: Python :: 3.1",
-    "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.2",
     "Programming Language :: Python :: 3.3",
     "Programming Language :: Python :: 3.4",
@@ -424,6 +423,7 @@ classifiers = {
     "Programming Language :: Python :: 3.7",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: Implementation",
     "Programming Language :: Python :: Implementation :: CPython",
     "Programming Language :: Python :: Implementation :: IronPython",
@@ -757,7 +757,10 @@ classifiers = {
     "Topic :: Text Processing :: Markup :: reStructuredText",
     "Topic :: Utilities",
     "Typing :: Typed",
-}
+]
+
+classifiers = set(sorted_classifiers)
+
 
 # A mapping from the deprecated classifier name to a list of zero or more valid
 # classifiers that should replace it
