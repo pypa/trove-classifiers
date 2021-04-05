@@ -41,6 +41,7 @@ sorted_classifiers = [
     "Environment :: GPU :: NVIDIA CUDA :: 10.2",
     "Environment :: GPU :: NVIDIA CUDA :: 11.0",
     "Environment :: GPU :: NVIDIA CUDA :: 11.1",
+    "Environment :: GPU :: NVIDIA CUDA :: 11.2",
     "Environment :: Handhelds/PDA's",
     "Environment :: MacOS X",
     "Environment :: MacOS X :: Aqua",
