@@ -162,6 +162,7 @@ sorted_classifiers = [
     "Framework :: Zope :: 3",
     "Framework :: Zope :: 4",
     "Framework :: Zope :: 5",
+    "Framework :: aiohttp",
     "Framework :: napari",
     "Framework :: tox",
     "Intended Audience :: Customer Service",
