@@ -384,6 +384,7 @@ sorted_classifiers = [
     "Programming Language :: C++",
     "Programming Language :: Cold Fusion",
     "Programming Language :: Cython",
+    "Programming Language :: D",
     "Programming Language :: Delphi/Kylix",
     "Programming Language :: Dylan",
     "Programming Language :: Eiffel",
