@@ -65,6 +65,7 @@ sorted_classifiers = [
     "Framework :: AWS CDK :: 1",
     "Framework :: AiiDA",
     "Framework :: Ansible",
+    "Framework :: AnyIO",
     "Framework :: AsyncIO",
     "Framework :: BEAT",
     "Framework :: BFG",
