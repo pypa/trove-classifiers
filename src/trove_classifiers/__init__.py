@@ -75,6 +75,7 @@ sorted_classifiers = [
     "Framework :: Buildout :: Recipe",
     "Framework :: CastleCMS",
     "Framework :: CastleCMS :: Theme",
+    "Framework :: Celery",
     "Framework :: Chandler",
     "Framework :: CherryPy",
     "Framework :: CubicWeb",
