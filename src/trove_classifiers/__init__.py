@@ -102,6 +102,7 @@ sorted_classifiers = [
     "Framework :: Django CMS :: 3.6",
     "Framework :: Django CMS :: 3.7",
     "Framework :: Django CMS :: 3.8",
+    "Framework :: FastAPI",
     "Framework :: Flake8",
     "Framework :: Flask",
     "Framework :: Hypothesis",
