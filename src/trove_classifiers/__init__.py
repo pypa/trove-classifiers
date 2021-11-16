@@ -83,6 +83,7 @@ sorted_classifiers = [
     "Framework :: CherryPy",
     "Framework :: CubicWeb",
     "Framework :: Dash",
+    "Framework :: Datasette",
     "Framework :: Django",
     "Framework :: Django :: 1.4",
     "Framework :: Django :: 1.5",
