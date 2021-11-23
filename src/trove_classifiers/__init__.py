@@ -69,7 +69,7 @@ sorted_classifiers = [
     "Framework :: AiiDA",
     "Framework :: Ansible",
     "Framework :: Apache Airflow",
-    "Framework :: Apache Airflow :: Provider",    
+    "Framework :: Apache Airflow :: Provider",
     "Framework :: AsyncIO",
     "Framework :: BEAT",
     "Framework :: BFG",
