@@ -785,6 +785,7 @@ sorted_classifiers = [
     "Topic :: Text Processing :: Markup :: XML",
     "Topic :: Text Processing :: Markup :: reStructuredText",
     "Topic :: Utilities",
+    "Typing :: Stubs Only",
     "Typing :: Typed",
 ]
 
