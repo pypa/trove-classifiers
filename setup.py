@@ -22,10 +22,12 @@ setup(
         "Intended Audience :: Developers",
         "License :: OSI Approved :: Apache Software License",
         "Programming Language :: Python :: 3",
+        "Typing :: Typed",
     ],
     keywords="classifiers",
     package_dir={"": "src"},
     packages=find_packages(where="src"),
+    package_data={"": ["py.typed"]},
     use_calver=True,
     setup_requires=["calver"],
 )
