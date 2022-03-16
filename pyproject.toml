@@ -1,3 +1,7 @@
 [build-system]
 requires = ["setuptools", "wheel", "calver"]
 build-backend = "setuptools.build_meta"
+
+[mypy]
+strict = true
+warn_unreachable = true
