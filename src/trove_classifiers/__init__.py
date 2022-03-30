@@ -67,6 +67,7 @@ sorted_classifiers = [
     "Environment :: X11 Applications :: Qt",
     "Framework :: AWS CDK",
     "Framework :: AWS CDK :: 1",
+    "Framework :: AWS CDK :: 2",
     "Framework :: AiiDA",
     "Framework :: Ansible",
     "Framework :: AnyIO",
