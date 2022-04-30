@@ -120,6 +120,7 @@ sorted_classifiers = [
     "Framework :: FastAPI",
     "Framework :: Flake8",
     "Framework :: Flask",
+    "Framework :: Hatch",
     "Framework :: Hypothesis",
     "Framework :: IDLE",
     "Framework :: IPython",
