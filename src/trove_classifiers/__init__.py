@@ -190,6 +190,7 @@ sorted_classifiers = [
     "Framework :: Wagtail",
     "Framework :: Wagtail :: 1",
     "Framework :: Wagtail :: 2",
+    "Framework :: Wagtail :: 3",
     "Framework :: ZODB",
     "Framework :: Zope",
     "Framework :: Zope2",
