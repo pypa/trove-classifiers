@@ -276,6 +276,7 @@ sorted_classifiers = [
     "License :: OSI Approved :: Mozilla Public License 1.0 (MPL)",
     "License :: OSI Approved :: Mozilla Public License 1.1 (MPL 1.1)",
     "License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
+    "License :: OSI Approved :: Mulan Permissive Software License v2 (MulanPSL-2.0)",
     "License :: OSI Approved :: Nethack General Public License",
     "License :: OSI Approved :: Nokia Open Source License",
     "License :: OSI Approved :: Open Group Test Suite License",
