@@ -46,7 +46,7 @@ Example - determine if a classifier is deprecated:
 False
 >>> 'Natural Language :: Ukranian' in deprecated_classifiers
 True
->>> deprecated_classifiers["Natural Language :: Ukranian"]
+>>> deprecated_classifiers["Natural Language :: Ukrainian"]
 ['Natural Language :: Ukrainian']
 ```
 

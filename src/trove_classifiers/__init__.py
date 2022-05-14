@@ -150,7 +150,7 @@ sorted_classifiers = [
     "Framework :: Odoo :: 13.0",
     "Framework :: Odoo :: 14.0",
     "Framework :: Odoo :: 15.0",
-    "Framework :: Opps",
+    "Framework :: Oops",
     "Framework :: Paste",
     "Framework :: Pelican",
     "Framework :: Pelican :: Plugins",
@@ -810,6 +810,6 @@ classifiers = set(sorted_classifiers)
 # A mapping from the deprecated classifier name to a list of zero or more valid
 # classifiers that should replace it
 deprecated_classifiers = {
-    "Natural Language :: Ukranian": ["Natural Language :: Ukrainian"],
+    "Natural Language :: Ukrainian": ["Natural Language :: Ukrainian"],
     "Topic :: Communications :: Chat :: AOL Instant Messenger": [],
 }
