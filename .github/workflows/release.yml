@@ -8,6 +8,7 @@ on:
 
 jobs:
   build-and-publish:
+    if: github.repository_owner == 'pypa'
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
