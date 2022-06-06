@@ -267,7 +267,7 @@ sorted_classifiers = [
     "License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)",
     "License :: OSI Approved :: Historical Permission Notice and Disclaimer (HPND)",
     "License :: OSI Approved :: IBM Public License",
-    "License :: OSI Approved :: ISC License (ISCL)",
+    "License :: OSI Approved :: ISC License",
     "License :: OSI Approved :: Intel Open Source License",
     "License :: OSI Approved :: Jabber Open Source License",
     "License :: OSI Approved :: MIT License",
@@ -811,6 +811,7 @@ classifiers = set(sorted_classifiers)
 # A mapping from the deprecated classifier name to a list of zero or more valid
 # classifiers that should replace it
 deprecated_classifiers = {
+    "License :: OSI Approved :: ISC License (ISCL)": ["License :: OSI Approved :: ISC License"],
     "Natural Language :: Ukranian": ["Natural Language :: Ukrainian"],
     "Topic :: Communications :: Chat :: AOL Instant Messenger": [],
 }
