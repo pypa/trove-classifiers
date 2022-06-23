@@ -1,5 +1,7 @@
+from typing import Dict, List, Set
+
 # A set of classifier names
-sorted_classifiers = [
+sorted_classifiers: List[str] = [
     "Development Status :: 1 - Planning",
     "Development Status :: 2 - Pre-Alpha",
     "Development Status :: 3 - Alpha",
@@ -805,12 +807,12 @@ sorted_classifiers = [
     "Typing :: Typed",
 ]
 
-classifiers = set(sorted_classifiers)
+classifiers: Set[str] = set(sorted_classifiers)
 
 
 # A mapping from the deprecated classifier name to a list of zero or more valid
 # classifiers that should replace it
-deprecated_classifiers = {
+deprecated_classifiers: Dict[str, List[str]] = {
     "Natural Language :: Ukranian": ["Natural Language :: Ukrainian"],
     "Topic :: Communications :: Chat :: AOL Instant Messenger": [],
 }
