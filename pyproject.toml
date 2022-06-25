@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools", "wheel", "calver"]
+requires = ["setuptools", "calver"]
 build-backend = "setuptools.build_meta"
 
 [mypy]
