@@ -1,5 +1,7 @@
+from typing import Dict, List, Set
+
 # A set of classifier names
-sorted_classifiers = [
+sorted_classifiers: List[str] = [
     "Development Status :: 1 - Planning",
     "Development Status :: 2 - Pre-Alpha",
     "Development Status :: 3 - Alpha",
@@ -46,6 +48,7 @@ sorted_classifiers = [
     "Environment :: GPU :: NVIDIA CUDA :: 11.4",
     "Environment :: GPU :: NVIDIA CUDA :: 11.5",
     "Environment :: GPU :: NVIDIA CUDA :: 11.6",
+    "Environment :: GPU :: NVIDIA CUDA :: 11.7",
     "Environment :: Handhelds/PDA's",
     "Environment :: MacOS X",
     "Environment :: MacOS X :: Aqua",
@@ -109,6 +112,7 @@ sorted_classifiers = [
     "Framework :: Django :: 3.2",
     "Framework :: Django :: 4",
     "Framework :: Django :: 4.0",
+    "Framework :: Django :: 4.1",
     "Framework :: Django CMS",
     "Framework :: Django CMS :: 3.4",
     "Framework :: Django CMS :: 3.5",
@@ -467,6 +471,7 @@ sorted_classifiers = [
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: Implementation",
     "Programming Language :: Python :: Implementation :: CPython",
     "Programming Language :: Python :: Implementation :: IronPython",
@@ -803,12 +808,12 @@ sorted_classifiers = [
     "Typing :: Typed",
 ]
 
-classifiers = set(sorted_classifiers)
+classifiers: Set[str] = set(sorted_classifiers)
 
 
 # A mapping from the deprecated classifier name to a list of zero or more valid
 # classifiers that should replace it
-deprecated_classifiers = {
+deprecated_classifiers: Dict[str, List[str]] = {
     "Natural Language :: Ukranian": ["Natural Language :: Ukrainian"],
     "Topic :: Communications :: Chat :: AOL Instant Messenger": [],
 }
