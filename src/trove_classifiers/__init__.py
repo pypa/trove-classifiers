@@ -817,3 +817,9 @@ deprecated_classifiers: Dict[str, List[str]] = {
     "Natural Language :: Ukranian": ["Natural Language :: Ukrainian"],
     "Topic :: Communications :: Chat :: AOL Instant Messenger": [],
 }
+
+
+# All classifiers, including deprecated classifiers
+all_classifiers: List[str] = sorted(
+    sorted_classifiers + list(deprecated_classifiers.keys())
+)
