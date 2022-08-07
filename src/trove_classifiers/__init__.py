@@ -377,6 +377,7 @@ sorted_classifiers: List[str] = [
     "Operating System :: Microsoft :: Windows :: Windows 8",
     "Operating System :: Microsoft :: Windows :: Windows 8.1",
     "Operating System :: Microsoft :: Windows :: Windows 10",
+    "Operating System :: Microsoft :: Windows :: Windows 11",
     "Operating System :: Microsoft :: Windows :: Windows 95/98/2000",
     "Operating System :: Microsoft :: Windows :: Windows CE",
     "Operating System :: Microsoft :: Windows :: Windows NT/2000",
