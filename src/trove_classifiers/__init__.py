@@ -154,6 +154,7 @@ sorted_classifiers: List[str] = [
     "Framework :: Odoo :: 13.0",
     "Framework :: Odoo :: 14.0",
     "Framework :: Odoo :: 15.0",
+    "Framework :: Odoo :: 16.0",
     "Framework :: Opps",
     "Framework :: Paste",
     "Framework :: Pelican",
