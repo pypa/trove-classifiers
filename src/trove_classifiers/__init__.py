@@ -268,10 +268,12 @@ sorted_classifiers: List[str] = [
     "License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)",
     "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
     "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
-    "License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)",
-    "License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)",
-    "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
-    "License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)",
+    "License :: OSI Approved :: GNU Lesser General Public License v2.0 only (LGPLv2.0-only)",
+    "License :: OSI Approved :: GNU Lesser General Public License v2.0 or later (LGPLv2.0-or-later)",
+    "License :: OSI Approved :: GNU Lesser General Public License v2.1 only (LGPLv2.1-only)",
+    "License :: OSI Approved :: GNU Lesser General Public License v2.1 or later (LGPLv2.1-or-later)",
+    "License :: OSI Approved :: GNU Lesser General Public License v3.0 only (LGPLv3.0 only)",
+    "License :: OSI Approved :: GNU Lesser General Public License v3.0 or later (LGPLv3.0-or-later)",
     "License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)",
     "License :: OSI Approved :: Historical Permission Notice and Disclaimer (HPND)",
     "License :: OSI Approved :: IBM Public License",
@@ -823,6 +825,10 @@ classifiers: Set[str] = set(sorted_classifiers)
 deprecated_classifiers: Dict[str, List[str]] = {
     "Natural Language :: Ukranian": ["Natural Language :: Ukrainian"],
     "Topic :: Communications :: Chat :: AOL Instant Messenger": [],
+    "License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)",
+    "License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)",
+    "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
+    "License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)",
 }
 
 
