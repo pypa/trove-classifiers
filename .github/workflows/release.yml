@@ -32,7 +32,8 @@ jobs:
         password: ${{ secrets.pypi_password }}
     - name: Version
       id: version
-      run: echo "::set-output name=version::$(python setup.py --version 2>/dev/null)"
+      run: |
+        echo version=$(python -c "from trove_classifiers import version; print(version.__version__)" 2>/dev/null) >> $GITHUB_OUTPUT
     - name: Tag
       uses: actions/create-release@v1
       env:

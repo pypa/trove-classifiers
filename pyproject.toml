@@ -1,6 +1,39 @@
 [build-system]
-requires = ["setuptools", "calver"]
+requires = ["setuptools >= 61.0"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "trove-classifiers"
+readme = "README.md"
+description = "Canonical source for classifiers on PyPI (pypi.org)."
+authors = [{name = "The PyPI Admins", email = "admin@pypi.org"}]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Typing :: Typed",
+]
+keywords = ["classifiers"]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/pypa/trove-classifiers"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+include-package-data = false
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = false
+
+[tool.setuptools.package-data]
+"*" = ["py.typed"]
+
+[tool.setuptools.dynamic.version]
+attr = "trove_classifiers.version.__version__"
+
 
 [mypy]
 strict = true
