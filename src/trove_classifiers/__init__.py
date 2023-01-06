@@ -180,6 +180,7 @@ sorted_classifiers: List[str] = [
     "Framework :: Plone :: Addon",
     "Framework :: Plone :: Core",
     "Framework :: Plone :: Theme",
+    "Framework :: Poetry",
     "Framework :: Pylons",
     "Framework :: Pyramid",
     "Framework :: Pytest",
