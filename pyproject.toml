@@ -20,6 +20,11 @@ dynamic = ["version"]
 [project.urls]
 Homepage = "https://github.com/pypa/trove-classifiers"
 
+[project.optional-dependencies]
+dev = [
+    "tox >= 4.0"
+]
+
 [tool.setuptools]
 package-dir = {"" = "src"}
 include-package-data = false

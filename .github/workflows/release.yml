@@ -16,14 +16,14 @@ jobs:
       uses: actions/setup-python@v3
       with:
         python-version: '3.x'
-        cache: pip
-        cache-dependency-path: .github/workflows/release.yml
+    - name: Install project
+      run: pip install .[dev]
     - name: Lint
-      run: make lint
+      run: tox -e lint
     - name: Test
-      run: make test
+      run: tox
     - name: Install build dependencies
-      run: pip install -U setuptools wheel build calver
+      run: pip install -U setuptools wheel build
     - name: Build
       run: python -m build .
     - name: Publish
