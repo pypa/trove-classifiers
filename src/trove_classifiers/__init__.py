@@ -182,6 +182,7 @@ sorted_classifiers: List[str] = [
     "Framework :: Plone :: 6.0",
     "Framework :: Plone :: Addon",
     "Framework :: Plone :: Core",
+    "Framework :: Plone :: Distribution",
     "Framework :: Plone :: Theme",
     "Framework :: Pydantic",
     "Framework :: Pydantic :: 1",
