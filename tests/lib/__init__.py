@@ -19,7 +19,6 @@ def trove_tester(classifiers, deprecated_classifiers):
 
         # Check the sub-classifiers
         for sub in split:
-
             # Check for whitespace
             if sub.strip().rstrip() != sub:
                 raise InvalidClassifier(
@@ -38,7 +37,6 @@ def trove_tester(classifiers, deprecated_classifiers):
 
     # Check the deprecated classifiers
     for deprecated_classifier, deprecated_by in deprecated_classifiers.items():
-
         # Check if the classifier is in both lists
         if deprecated_classifier in classifiers:
             raise InvalidClassifier(
