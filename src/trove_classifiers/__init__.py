@@ -495,6 +495,7 @@ sorted_classifiers: List[str] = [
     "Programming Language :: Python :: Implementation :: Jython",
     "Programming Language :: Python :: Implementation :: MicroPython",
     "Programming Language :: Python :: Implementation :: PyPy",
+    "Programming Language :: Python :: Implementation :: PyPy :: 3",
     "Programming Language :: Python :: Implementation :: Stackless",
     "Programming Language :: R",
     "Programming Language :: REBOL",
