@@ -31,6 +31,10 @@ jobs:
       run: python -m build .
     - name: Publish
       uses: pypa/gh-action-pypi-publish@release/v1
+  release:
+    if: github.repository_owner == 'pypa'
+    runs-on: ubuntu-latest
+    steps:
     - name: Version
       id: version
       run: echo "::set-output name=version::$(python setup.py --version 2>/dev/null)"
