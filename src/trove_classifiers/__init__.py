@@ -456,6 +456,7 @@ sorted_classifiers: List[str] = [
     "Programming Language :: Kotlin",
     "Programming Language :: Lisp",
     "Programming Language :: Logo",
+    "Programming Language :: Lua",
     "Programming Language :: ML",
     "Programming Language :: Modula",
     "Programming Language :: OCaml",
