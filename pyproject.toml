@@ -2,6 +2,6 @@
 requires = ["setuptools", "calver"]
 build-backend = "setuptools.build_meta"
 
-[mypy]
+[tool.mypy]
 strict = true
 warn_unreachable = true
