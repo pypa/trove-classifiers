@@ -10,6 +10,9 @@ jobs:
   build-and-publish:
     if: github.repository_owner == 'pypa'
     runs-on: ubuntu-latest
+    permissions:
+       # IMPORTANT: this permission is mandatory for trusted publishing
+       id-token: write
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python
@@ -27,9 +30,18 @@ jobs:
     - name: Build
       run: python -m build .
     - name: Publish
-      uses: pypa/gh-action-pypi-publish@master
+      uses: pypa/gh-action-pypi-publish@release/v1
+  release:
+    if: github.repository_owner == 'pypa'
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python
+      uses: actions/setup-python@v3
       with:
-        password: ${{ secrets.pypi_password }}
+        python-version: '3.x'
+        cache: pip
+        cache-dependency-path: .github/workflows/release.yml
     - name: Version
       id: version
       run: |

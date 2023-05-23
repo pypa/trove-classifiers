@@ -40,6 +40,6 @@ namespaces = false
 attr = "trove_classifiers.version.__version__"
 
 
-[mypy]
+[tool.mypy]
 strict = true
 warn_unreachable = true
