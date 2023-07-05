@@ -702,6 +702,7 @@ sorted_classifiers: List[str] = [
     "Topic :: Scientific/Engineering :: Interface Engine/Protocol Translator",
     "Topic :: Scientific/Engineering :: Mathematics",
     "Topic :: Scientific/Engineering :: Medical Science Apps.",
+    "Topic :: Scientific/Engineering :: Oceanography",
     "Topic :: Scientific/Engineering :: Physics",
     "Topic :: Scientific/Engineering :: Visualization",
     "Topic :: Security",
