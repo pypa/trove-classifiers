@@ -156,6 +156,7 @@ sorted_classifiers: List[str] = [
     "Framework :: Lektor",
     "Framework :: Masonite",
     "Framework :: Matplotlib",
+    "Framework :: MkDocs",
     "Framework :: Nengo",
     "Framework :: Odoo",
     "Framework :: Odoo :: 8.0",
