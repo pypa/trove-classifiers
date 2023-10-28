@@ -196,6 +196,8 @@ sorted_classifiers: List[str] = [
     "Framework :: Pydantic :: 2",
     "Framework :: Pylons",
     "Framework :: Pyramid",
+    "Framework :: PySimpleGUI :: 4",
+    "Framework :: PySimpleGUI :: 5",
     "Framework :: Pytest",
     "Framework :: Review Board",
     "Framework :: Robot Framework",
