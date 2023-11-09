@@ -191,6 +191,7 @@ sorted_classifiers: List[str] = [
     "Framework :: Plone :: Core",
     "Framework :: Plone :: Distribution",
     "Framework :: Plone :: Theme",
+    "Framework :: PySimpleGUI",
     "Framework :: PySimpleGUI :: 4",
     "Framework :: PySimpleGUI :: 5",
     "Framework :: Pycsou",
