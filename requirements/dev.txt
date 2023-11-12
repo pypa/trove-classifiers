@@ -1,5 +1,0 @@
-black
-jinja2
-natsort
-pytest
-mypy

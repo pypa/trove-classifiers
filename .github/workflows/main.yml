@@ -14,9 +14,9 @@ jobs:
       uses: actions/setup-python@v3
       with:
         python-version: '3.x'
-        cache: pip
-        cache-dependency-path: requirements/dev.txt
+    - name: Install tox
+      run: pip install tox
     - name: Lint
-      run: make lint
+      run: tox -e lint
     - name: Test
-      run: make test
+      run: tox
