@@ -42,6 +42,8 @@ jobs:
         python-version: '3.x'
         cache: pip
         cache-dependency-path: .github/workflows/release.yml
+    - name: Install build dependencies
+      run: pip install -U setuptools wheel build calver
     - name: Version
       id: version
       run: echo "version=$(python setup.py --version 2>/dev/null)" >> $GITHUB_OUTPUT
