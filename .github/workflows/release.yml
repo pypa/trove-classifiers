@@ -44,7 +44,12 @@ jobs:
         cache-dependency-path: .github/workflows/release.yml
     - name: Version
       id: version
-      run: echo "version=$(python setup.py --version 2>/dev/null)" >> $GITHUB_OUTPUT
+      run: |
+        version=$(python setup.py --version 2>/dev/null)
+        echo "version=$version" >> "$GITHUB_OUTPUT"
+    - name: Debug
+      run: |
+        echo "The version is ${{ steps.version.outputs.version }}"
     - name: Tag
       uses: actions/create-release@v1
       env:
