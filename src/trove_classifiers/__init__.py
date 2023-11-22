@@ -208,6 +208,7 @@ sorted_classifiers: List[str] = [
     "Framework :: Scrapy",
     "Framework :: Setuptools Plugin",
     "Framework :: Sphinx",
+    "Framework :: Sphinx :: Domain",
     "Framework :: Sphinx :: Extension",
     "Framework :: Sphinx :: Theme",
     "Framework :: Trac",
