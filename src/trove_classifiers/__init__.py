@@ -329,6 +329,7 @@ sorted_classifiers: List[str] = [
     "License :: OSI Approved :: Vovida Software License 1.0",
     "License :: OSI Approved :: W3C License",
     "License :: OSI Approved :: X.Net License",
+    "License :: OSI Approved :: Zero-Clause BSD (0BSD)",
     "License :: OSI Approved :: Zope Public License",
     "License :: OSI Approved :: zlib/libpng License",
     "License :: Other/Proprietary License",
