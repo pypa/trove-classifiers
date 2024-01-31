@@ -280,6 +280,8 @@ sorted_classifiers: List[str] = [
     "License :: OSI Approved :: Common Public License",
     "License :: OSI Approved :: Eclipse Public License 1.0 (EPL-1.0)",
     "License :: OSI Approved :: Eclipse Public License 2.0 (EPL-2.0)",
+    "License :: OSI Approved :: Educational Community License v2.0 (ECL-2.0)",
+
     "License :: OSI Approved :: Eiffel Forum License",
     "License :: OSI Approved :: European Union Public Licence 1.0 (EUPL 1.0)",
     "License :: OSI Approved :: European Union Public Licence 1.1 (EUPL 1.1)",
