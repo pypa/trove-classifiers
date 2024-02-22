@@ -463,6 +463,7 @@ sorted_classifiers: List[str] = [
     "Programming Language :: Fortran",
     "Programming Language :: Go",
     "Programming Language :: Haskell",
+    "Programming Language :: Hy",
     "Programming Language :: Java",
     "Programming Language :: JavaScript",
     "Programming Language :: Kotlin",
