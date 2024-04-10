@@ -361,6 +361,7 @@ sorted_classifiers: List[str] = [
     "Natural Language :: Finnish",
     "Natural Language :: French",
     "Natural Language :: Galician",
+    "Natural Language :: Georgian",
     "Natural Language :: German",
     "Natural Language :: Greek",
     "Natural Language :: Hebrew",
