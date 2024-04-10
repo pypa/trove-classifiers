@@ -350,6 +350,7 @@ sorted_classifiers: List[str] = [
     "Natural Language :: Bulgarian",
     "Natural Language :: Cantonese",
     "Natural Language :: Catalan",
+    "Natural Language :: Catalan (Valencian)",
     "Natural Language :: Chinese (Simplified)",
     "Natural Language :: Chinese (Traditional)",
     "Natural Language :: Croatian",
