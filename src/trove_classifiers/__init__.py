@@ -278,6 +278,7 @@ sorted_classifiers: List[str] = [
     "License :: OSI Approved :: Apple Public Source License",
     "License :: OSI Approved :: Artistic License",
     "License :: OSI Approved :: Attribution Assurance License",
+    "License :: OSI Approved :: Blue Oak Model License",
     "License :: OSI Approved :: BSD License",
     "License :: OSI Approved :: Boost Software License 1.0 (BSL-1.0)",
     "License :: OSI Approved :: CEA CNRS Inria Logiciel Libre License, version 2.1 (CeCILL-2.1)",
