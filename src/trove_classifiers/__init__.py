@@ -528,6 +528,7 @@ sorted_classifiers: List[str] = [
     "Programming Language :: Python :: 3.14",
     "Programming Language :: Python :: Implementation",
     "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: GraalPy",
     "Programming Language :: Python :: Implementation :: IronPython",
     "Programming Language :: Python :: Implementation :: Jython",
     "Programming Language :: Python :: Implementation :: MicroPython",
