@@ -315,6 +315,7 @@ sorted_classifiers: List[str] = [
     "License :: OSI Approved :: Jabber Open Source License",
     "License :: OSI Approved :: MIT License",
     "License :: OSI Approved :: MIT No Attribution License (MIT-0)",
+    "License :: OSI Approved :: MIT-CMU License",
     "License :: OSI Approved :: MITRE Collaborative Virtual Workspace License (CVW)",
     "License :: OSI Approved :: MirOS License (MirOS)",
     "License :: OSI Approved :: Motosoto License",
