@@ -574,7 +574,7 @@ sorted_classifiers: List[str] = [
     "Topic :: Communications :: Ham Radio",
     "Topic :: Communications :: Internet Phone",
     "Topic :: Communications :: Social Media",
-    "Topic :: Communications :: Social Media :: Bluesky",   
+    "Topic :: Communications :: Social Media :: Bluesky",
     "Topic :: Communications :: Social Media :: Facebook",
     "Topic :: Communications :: Social Media :: Instagram",
     "Topic :: Communications :: Social Media :: Lemmy",
