@@ -735,6 +735,7 @@ sorted_classifiers: List[str] = [
     "Topic :: Scientific/Engineering :: Medical Science Apps.",
     "Topic :: Scientific/Engineering :: Oceanography",
     "Topic :: Scientific/Engineering :: Physics",
+    "Topic :: Scientific/Engineering :: Quantum Computing",
     "Topic :: Scientific/Engineering :: Visualization",
     "Topic :: Security",
     "Topic :: Security :: Cryptography",
