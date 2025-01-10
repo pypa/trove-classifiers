@@ -315,11 +315,8 @@ sorted_classifiers: List[str] = [
     "License :: OSI Approved :: Historical Permission Notice and Disclaimer (HPND)",
     "License :: OSI Approved :: IBM Public License",
     "License :: OSI Approved :: ISC License (ISCL)",
-    "License :: OSI Approved :: Intel Open Source License",
-    "License :: OSI Approved :: Jabber Open Source License",
     "License :: OSI Approved :: MIT License",
     "License :: OSI Approved :: MIT No Attribution License (MIT-0)",
-    "License :: OSI Approved :: MITRE Collaborative Virtual Workspace License (CVW)",
     "License :: OSI Approved :: MirOS License (MirOS)",
     "License :: OSI Approved :: Motosoto License",
     "License :: OSI Approved :: Mozilla Public License 1.0 (MPL)",
@@ -338,14 +335,12 @@ sorted_classifiers: List[str] = [
     "License :: OSI Approved :: Ricoh Source Code Public License",
     "License :: OSI Approved :: SIL Open Font License 1.1 (OFL-1.1)",
     "License :: OSI Approved :: Sleepycat License",
-    "License :: OSI Approved :: Sun Industry Standards Source License (SISSL)",
     "License :: OSI Approved :: Sun Public License",
     "License :: OSI Approved :: The Unlicense (Unlicense)",
     "License :: OSI Approved :: Universal Permissive License (UPL)",
     "License :: OSI Approved :: University of Illinois/NCSA Open Source License",
     "License :: OSI Approved :: Vovida Software License 1.0",
     "License :: OSI Approved :: W3C License",
-    "License :: OSI Approved :: X.Net License",
     "License :: OSI Approved :: Zero-Clause BSD (0BSD)",
     "License :: OSI Approved :: Zope Public License",
     "License :: OSI Approved :: zlib/libpng License",
@@ -877,6 +872,11 @@ classifiers: Set[str] = set(sorted_classifiers)
 # A mapping from the deprecated classifier name to a list of zero or more valid
 # classifiers that should replace it
 deprecated_classifiers: Dict[str, List[str]] = {
+    "License :: OSI Approved :: Intel Open Source License": [],
+    "License :: OSI Approved :: Jabber Open Source License": [],
+    "License :: OSI Approved :: MITRE Collaborative Virtual Workspace License (CVW)": [],
+    "License :: OSI Approved :: Sun Industry Standards Source License (SISSL)": [],
+    "License :: OSI Approved :: X.Net License": [],
     "Natural Language :: Ukranian": ["Natural Language :: Ukrainian"],
     "Topic :: Communications :: Chat :: AOL Instant Messenger": [],
 }
