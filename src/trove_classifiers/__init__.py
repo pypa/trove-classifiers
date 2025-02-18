@@ -200,6 +200,7 @@ sorted_classifiers: List[str] = [
     "Framework :: Plone :: 5.3",
     "Framework :: Plone :: 6.0",
     "Framework :: Plone :: 6.1",
+    "Framework :: Plone :: 6.2",
     "Framework :: Plone :: Addon",
     "Framework :: Plone :: Core",
     "Framework :: Plone :: Distribution",
