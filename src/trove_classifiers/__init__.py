@@ -142,7 +142,7 @@ sorted_classifiers: List[str] = [
     "Framework :: Django CMS :: 3.11",
     "Framework :: Django CMS :: 4.0",
     "Framework :: Django CMS :: 4.1",
-    "Framework :: Django CMS :: 4.2",
+    "Framework :: Django CMS :: 5.0",
     "Framework :: FastAPI",
     "Framework :: Flake8",
     "Framework :: Flask",
