@@ -874,6 +874,7 @@ classifiers: Set[str] = set(sorted_classifiers)
 # A mapping from the deprecated classifier name to a list of zero or more valid
 # classifiers that should replace it
 deprecated_classifiers: Dict[str, List[str]] = {
+    "Framework :: Django CMS :: 4.1": ["Framework :: Django CMS :: 5.0"],
     "License :: OSI Approved :: Intel Open Source License": [],
     "License :: OSI Approved :: Jabber Open Source License": [],
     "License :: OSI Approved :: MITRE Collaborative Virtual Workspace License (CVW)": [],
