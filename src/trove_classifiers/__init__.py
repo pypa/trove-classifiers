@@ -213,6 +213,7 @@ sorted_classifiers: List[str] = [
     "Framework :: Pydantic :: 1",
     "Framework :: Pydantic :: 2",
     "Framework :: Pylons",
+    "Framework :: Pyodide",
     "Framework :: Pyramid",
     "Framework :: Pytest",
     "Framework :: Review Board",
