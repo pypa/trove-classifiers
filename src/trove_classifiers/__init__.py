@@ -890,3 +890,10 @@ deprecated_classifiers: Dict[str, List[str]] = {
 all_classifiers: List[str] = sorted(
     sorted_classifiers + list(deprecated_classifiers.keys())
 )
+
+__all__ = [
+    "all_classifiers",
+    "deprecated_classifiers",
+    "sorted_classifiers",
+    "sorted_classifiers",
+]
