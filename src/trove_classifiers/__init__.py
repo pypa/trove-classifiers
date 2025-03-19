@@ -893,7 +893,7 @@ all_classifiers: List[str] = sorted(
 
 __all__ = [
     "all_classifiers",
+    "classifiers",
     "deprecated_classifiers",
-    "sorted_classifiers",
     "sorted_classifiers",
 ]
