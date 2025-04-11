@@ -240,6 +240,7 @@ sorted_classifiers: List[str] = [
     "Framework :: Wagtail :: 4",
     "Framework :: Wagtail :: 5",
     "Framework :: Wagtail :: 6",
+    "Framework :: Wagtail :: 7",
     "Framework :: ZODB",
     "Framework :: Zope",
     "Framework :: Zope2",
