@@ -1,4 +1,9 @@
 from trove_classifiers import sorted_classifiers
 
-for classifier in sorted_classifiers:
-    print(classifier)
+def cli():
+    for classifier in sorted_classifiers:
+        print(classifier)
+
+if __name__ == "__main__":
+    cli()
+
