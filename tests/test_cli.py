@@ -3,6 +3,10 @@ calling the entry point produce equivalent output.
 """
 
 import subprocess
+import sys
+from pathlib import Path
+
+BINDIR = Path(sys.executable).parent
 
 
 def test_module_run():
@@ -17,9 +21,11 @@ def test_entry_point():
 
 def test_module_run_is_entry_point():
     module_run_proc = subprocess.run(
-        ["python", "-m", "trove_classifiers"], capture_output=True, encoding="utf-8"
+        [f"{BINDIR}/python", "-m", "trove_classifiers"],
+        capture_output=True,
+        encoding="utf-8",
     )
     entry_point_proc = subprocess.run(
-        "trove-classifiers", capture_output=True, encoding="utf-8"
+        f"{BINDIR}/trove-classifiers", capture_output=True, encoding="utf-8"
     )
     assert module_run_proc.stdout == entry_point_proc.stdout
