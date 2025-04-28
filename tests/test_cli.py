@@ -20,6 +20,7 @@ def test_entry_point():
 
 
 def test_module_run_is_entry_point():
+    """Compare that module run output is the same as entry point output."""
     module_run_proc = subprocess.run(
         [f"{BINDIR}/python", "-m", "trove_classifiers"],
         capture_output=True,
