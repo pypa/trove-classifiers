@@ -32,5 +32,5 @@ setup(
     setup_requires=["calver"],
     entry_points={
         "console_scripts": ["trove-classifiers=trove_classifiers.__main__:cli"],
-    }
+    },
 )
