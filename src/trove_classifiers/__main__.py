@@ -1,6 +1,6 @@
 from trove_classifiers import sorted_classifiers
 
-def cli():
+def cli() -> None:
     for classifier in sorted_classifiers:
         print(classifier)
 
