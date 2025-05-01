@@ -11,7 +11,7 @@ BINDIR = Path(sys.executable).parent
 
 def test_module_run():
     """Simple test for no error when running the module. Output is not validated."""
-    subprocess.check_call([f"{BINDIR}/python", "-m", "trove_classifiers"])
+    subprocess.check_call([sys.executable, "-m", "trove_classifiers"])
 
 
 def test_entry_point():
@@ -22,7 +22,7 @@ def test_entry_point():
 def test_module_run_is_entry_point():
     """Compare that module run output is the same as entry point output."""
     module_run_proc = subprocess.run(
-        [f"{BINDIR}/python", "-m", "trove_classifiers"],
+        [sys.executable, "-m", "trove_classifiers"],
         capture_output=True,
         encoding="utf-8",
     )
