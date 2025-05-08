@@ -414,7 +414,7 @@ sorted_classifiers: List[str] = [
     "Natural Language :: Ukrainian",
     "Natural Language :: Urdu",
     "Natural Language :: Vietnamese",
-    "Natural Language :: Yiddish"
+    "Natural Language :: Yiddish",
     "Operating System :: Android",
     "Operating System :: BeOS",
     "Operating System :: MacOS",
