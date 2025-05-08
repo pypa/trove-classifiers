@@ -2,7 +2,7 @@ BINDIR = $(PWD)/.state/env/bin
 
 .state/env/pyvenv.cfg: requirements/dev.txt
 	rm -rf .state/env
-	python -m venv .state/env
+	python3 -m venv .state/env
 
 	# install/upgrade general requirements
 	$(BINDIR)/python -m pip install --upgrade pip setuptools wheel
