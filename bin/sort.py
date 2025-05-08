@@ -1,3 +1,7 @@
+# /// script
+# dependencies = ["natsort"]
+# ///
+
 import ast
 import sys
 
