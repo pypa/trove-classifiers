@@ -557,6 +557,7 @@ sorted_classifiers: List[str] = [
     "Programming Language :: XBasic",
     "Programming Language :: YACC",
     "Programming Language :: Zope",
+    "Programming Language :: Zig",
     "Topic :: Adaptive Technologies",
     "Topic :: Artistic Software",
     "Topic :: Communications",
