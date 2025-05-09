@@ -733,6 +733,7 @@ sorted_classifiers: List[str] = [
     "Topic :: Scientific/Engineering :: Atmospheric Science",
     "Topic :: Scientific/Engineering :: Bio-Informatics",
     "Topic :: Scientific/Engineering :: Chemistry",
+    "Topic :: Scientific/Engineering :: Data Acquisition (DAQ)",
     "Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)",
     "Topic :: Scientific/Engineering :: GIS",
     "Topic :: Scientific/Engineering :: Human Machine Interfaces",
