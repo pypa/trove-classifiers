@@ -241,6 +241,7 @@ sorted_classifiers: List[str] = [
     "Framework :: Wagtail :: 4",
     "Framework :: Wagtail :: 5",
     "Framework :: Wagtail :: 6",
+    "Framework :: Wagtail :: 7",
     "Framework :: ZODB",
     "Framework :: Zope",
     "Framework :: Zope2",
@@ -353,6 +354,7 @@ sorted_classifiers: List[str] = [
     "License :: Repoze Public License",
     "Natural Language :: Afrikaans",
     "Natural Language :: Arabic",
+    "Natural Language :: Armenian",
     "Natural Language :: Basque",
     "Natural Language :: Bengali",
     "Natural Language :: Bosnian",
@@ -368,6 +370,7 @@ sorted_classifiers: List[str] = [
     "Natural Language :: Dutch",
     "Natural Language :: English",
     "Natural Language :: Esperanto",
+    "Natural Language :: Estonian",
     "Natural Language :: Finnish",
     "Natural Language :: French",
     "Natural Language :: Galician",
@@ -412,6 +415,7 @@ sorted_classifiers: List[str] = [
     "Natural Language :: Ukrainian",
     "Natural Language :: Urdu",
     "Natural Language :: Vietnamese",
+    "Natural Language :: Yiddish",
     "Operating System :: Android",
     "Operating System :: BeOS",
     "Operating System :: MacOS",
@@ -526,8 +530,15 @@ sorted_classifiers: List[str] = [
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.13",
     "Programming Language :: Python :: 3.14",
+    "Programming Language :: Python :: 3.15",
+    "Programming Language :: Python :: Free Threading",
+    "Programming Language :: Python :: Free Threading :: 1 - Unstable",
+    "Programming Language :: Python :: Free Threading :: 2 - Beta",
+    "Programming Language :: Python :: Free Threading :: 3 - Stable",
+    "Programming Language :: Python :: Free Threading :: 4 - Resilient",
     "Programming Language :: Python :: Implementation",
     "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: GraalPy",
     "Programming Language :: Python :: Implementation :: IronPython",
     "Programming Language :: Python :: Implementation :: Jython",
     "Programming Language :: Python :: Implementation :: MicroPython",
@@ -891,3 +902,10 @@ deprecated_classifiers: Dict[str, List[str]] = {
 all_classifiers: List[str] = sorted(
     sorted_classifiers + list(deprecated_classifiers.keys())
 )
+
+__all__ = [
+    "all_classifiers",
+    "classifiers",
+    "deprecated_classifiers",
+    "sorted_classifiers",
+]
