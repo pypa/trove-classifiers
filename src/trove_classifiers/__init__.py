@@ -220,6 +220,7 @@ sorted_classifiers: List[str] = [
     "Framework :: Robot Framework",
     "Framework :: Robot Framework :: Library",
     "Framework :: Robot Framework :: Tool",
+    "Framework :: Scapy",
     "Framework :: Scapy :: Extension",
     "Framework :: Scrapy",
     "Framework :: Setuptools Plugin",
