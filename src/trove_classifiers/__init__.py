@@ -59,6 +59,7 @@ sorted_classifiers: List[str] = [
     "Environment :: GPU :: NVIDIA CUDA :: 12 :: 12.4",
     "Environment :: GPU :: NVIDIA CUDA :: 12 :: 12.5",
     "Environment :: GPU :: NVIDIA CUDA :: 12 :: 12.6",
+    "Environment :: GPU :: NVIDIA CUDA :: 13",
     "Environment :: Handhelds/PDA's",
     "Environment :: MacOS X",
     "Environment :: MacOS X :: Aqua",
