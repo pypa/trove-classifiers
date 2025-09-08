@@ -560,6 +560,7 @@ sorted_classifiers: List[str] = [
     "Programming Language :: Visual Basic",
     "Programming Language :: XBasic",
     "Programming Language :: YACC",
+    "Programming Language :: Zig",
     "Programming Language :: Zope",
     "Topic :: Adaptive Technologies",
     "Topic :: Artistic Software",
