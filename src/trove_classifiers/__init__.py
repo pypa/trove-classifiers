@@ -153,6 +153,7 @@ sorted_classifiers: List[str] = [
     "Framework :: Hypothesis",
     "Framework :: IDLE",
     "Framework :: IPython",
+    "Framework :: InvenTree",
     "Framework :: Jupyter",
     "Framework :: Jupyter :: JupyterLab",
     "Framework :: Jupyter :: JupyterLab :: 1",
