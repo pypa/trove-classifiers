@@ -746,6 +746,8 @@ sorted_classifiers: List[str] = [
     "Topic :: Scientific/Engineering :: Image Processing",
     "Topic :: Scientific/Engineering :: Image Recognition",
     "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Scientific/Engineering :: Instrument Drivers",
+    "Topic :: Scientific/Engineering :: Instrument Drivers :: IVI Conformant",
     "Topic :: Scientific/Engineering :: Interface Engine/Protocol Translator",
     "Topic :: Scientific/Engineering :: Mathematics",
     "Topic :: Scientific/Engineering :: Medical Science Apps.",
