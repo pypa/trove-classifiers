@@ -254,6 +254,7 @@ sorted_classifiers: List[str] = [
     "Framework :: Zope :: 3",
     "Framework :: Zope :: 4",
     "Framework :: Zope :: 5",
+    "Framework :: Zope :: 6",
     "Framework :: aiohttp",
     "Framework :: cocotb",
     "Framework :: napari",
