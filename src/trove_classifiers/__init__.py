@@ -668,6 +668,7 @@ sorted_classifiers: List[str] = [
     "Topic :: Internet :: Name Service (DNS)",
     "Topic :: Internet :: Proxy Servers",
     "Topic :: Internet :: WAP",
+    "Topic :: Internet :: GURT",
     "Topic :: Internet :: WWW/HTTP",
     "Topic :: Internet :: WWW/HTTP :: Browsers",
     "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
