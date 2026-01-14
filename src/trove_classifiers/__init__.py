@@ -14,6 +14,7 @@ sorted_classifiers: List[str] = [
     "Environment :: Console :: Framebuffer",
     "Environment :: Console :: Newt",
     "Environment :: Console :: svgalib",
+    "Environment :: Cygwin (MS Windows)",
     "Environment :: GPU",
     "Environment :: GPU :: NVIDIA CUDA",
     "Environment :: GPU :: NVIDIA CUDA :: 1.0",
