@@ -321,6 +321,8 @@ sorted_classifiers: List[str] = [
     "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
     "License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)",
     "License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)",
+    "License :: OSI Approved :: GNU Lesser General Public License v2.1 only (LGPL-2.1-only)",
+    "License :: OSI Approved :: GNU Lesser General Public License v2.1 or later (LGPL-2.1-or-later)",
     "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
     "License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)",
     "License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)",
