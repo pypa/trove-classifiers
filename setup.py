@@ -28,6 +28,9 @@ setup(
     package_dir={"": "src"},
     packages=find_packages(where="src"),
     package_data={"": ["py.typed"]},
-    use_calver=True,
+    use_calver="%Y.%m.%d.%H",
     setup_requires=["calver"],
+    entry_points={
+        "console_scripts": ["trove-classifiers=trove_classifiers.__main__:cli"],
+    },
 )
