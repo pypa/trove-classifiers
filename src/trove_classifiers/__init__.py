@@ -757,7 +757,7 @@ sorted_classifiers: List[str] = [
     "Topic :: Scientific/Engineering :: Instrument Drivers :: IVI Conformant",
     "Topic :: Scientific/Engineering :: Interface Engine/Protocol Translator",
     "Topic :: Scientific/Engineering :: Mathematics",
-    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+    "Topic :: Scientific/Engineering :: Medical Science Apps",
     "Topic :: Scientific/Engineering :: Oceanography",
     "Topic :: Scientific/Engineering :: Physics",
     "Topic :: Scientific/Engineering :: Quantum Computing",
@@ -909,6 +909,9 @@ deprecated_classifiers: Dict[str, List[str]] = {
     "License :: OSI Approved :: X.Net License": [],
     "Natural Language :: Ukranian": ["Natural Language :: Ukrainian"],
     "Topic :: Communications :: Chat :: AOL Instant Messenger": [],
+    "Topic :: Scientific/Engineering :: Medical Science Apps.": [
+        "Topic :: Scientific/Engineering :: Medical Science Apps",
+    ],
 }
 
 
