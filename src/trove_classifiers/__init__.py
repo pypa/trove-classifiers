@@ -135,6 +135,7 @@ sorted_classifiers: List[str] = [
     "Framework :: Django :: 5.2",
     "Framework :: Django :: 6",
     "Framework :: Django :: 6.0",
+    "Framework :: Django :: 6.1",
     "Framework :: Django CMS",
     "Framework :: Django CMS :: 3.4",
     "Framework :: Django CMS :: 3.5",
