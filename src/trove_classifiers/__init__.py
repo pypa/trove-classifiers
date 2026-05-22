@@ -416,6 +416,7 @@ sorted_classifiers: List[str] = [
     "Natural Language :: Romanian",
     "Natural Language :: Russian",
     "Natural Language :: Serbian",
+    "Natural Language :: Sesotho",
     "Natural Language :: Slovak",
     "Natural Language :: Slovenian",
     "Natural Language :: Spanish",
