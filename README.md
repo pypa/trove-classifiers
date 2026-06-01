@@ -36,7 +36,7 @@ False
 
 ### Deprecated classifiers (`trove_classifiers.deprecated_classifiers`)
 A `dict`, mapping a deprecated classifier (string) to a list of classifiers
-which replaces it (strings).
+that replace it (strings).
 
 Example - determine if a classifier is deprecated:
 
