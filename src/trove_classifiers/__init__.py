@@ -479,6 +479,7 @@ sorted_classifiers: List[str] = [
     "Programming Language :: Assembly",
     "Programming Language :: Awk",
     "Programming Language :: Basic",
+    "Programming Language :: Basilisp",
     "Programming Language :: C",
     "Programming Language :: C#",
     "Programming Language :: C++",
