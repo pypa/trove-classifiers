@@ -246,6 +246,7 @@ sorted_classifiers: List[str] = [
     "Framework :: TurboGears :: Applications",
     "Framework :: TurboGears :: Widgets",
     "Framework :: Twisted",
+    "Framework :: VapourSynth",
     "Framework :: Wagtail",
     "Framework :: Wagtail :: 1",
     "Framework :: Wagtail :: 2",
