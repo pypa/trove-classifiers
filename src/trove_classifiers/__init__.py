@@ -296,6 +296,7 @@ sorted_classifiers: List[str] = [
     "License :: Freeware",
     "License :: GUST Font License 1.0",
     "License :: GUST Font License 2006-09-30",
+    "License :: Hippocratic License",
     "License :: Netscape Public License (NPL)",
     "License :: Nokia Open Source License (NOKOS)",
     "License :: OSI Approved",
