@@ -234,6 +234,7 @@ sorted_classifiers: List[str] = [
     "Framework :: Robot Framework",
     "Framework :: Robot Framework :: Library",
     "Framework :: Robot Framework :: Tool",
+    "Framework :: SageMath",
     "Framework :: Scrapy",
     "Framework :: Setuptools Plugin",
     "Framework :: Sphinx",
