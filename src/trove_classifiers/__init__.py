@@ -225,6 +225,7 @@ sorted_classifiers: List[str] = [
     "Framework :: Pydantic",
     "Framework :: Pydantic :: 1",
     "Framework :: Pydantic :: 2",
+    "Framework :: Pylint",
     "Framework :: Pylons",
     "Framework :: Pyodide",
     "Framework :: Pyramid",
