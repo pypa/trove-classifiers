@@ -190,6 +190,7 @@ sorted_classifiers: List[str] = [
     "Framework :: Odoo :: 17.0",
     "Framework :: Odoo :: 18.0",
     "Framework :: Odoo :: 19.0",
+    "Framework :: Odoo :: 20.0",
     "Framework :: OpenTelemetry",
     "Framework :: OpenTelemetry :: Distros",
     "Framework :: OpenTelemetry :: Exporters",
