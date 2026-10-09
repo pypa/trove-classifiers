@@ -96,6 +96,7 @@ sorted_classifiers: List[str] = [
     "Framework :: BFG",
     "Framework :: Bob",
     "Framework :: Bottle",
+    "Framework :: Briefcase",
     "Framework :: Buildout",
     "Framework :: Buildout :: Extension",
     "Framework :: Buildout :: Recipe",
