@@ -240,6 +240,7 @@ sorted_classifiers: List[str] = [
     "Framework :: Sphinx :: Domain",
     "Framework :: Sphinx :: Extension",
     "Framework :: Sphinx :: Theme",
+    "Framework :: Toga",
     "Framework :: Trac",
     "Framework :: Trio",
     "Framework :: Tryton",
