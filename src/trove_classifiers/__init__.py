@@ -569,6 +569,7 @@ sorted_classifiers: List[str] = [
     "Programming Language :: Scheme",
     "Programming Language :: Simula",
     "Programming Language :: Smalltalk",
+    "Programming Language :: Swift",
     "Programming Language :: Tcl",
     "Programming Language :: Unix Shell",
     "Programming Language :: Visual Basic",
