@@ -196,6 +196,7 @@ sorted_classifiers: List[str] = [
     "Framework :: OpenTelemetry :: Exporters",
     "Framework :: OpenTelemetry :: Instrumentations",
     "Framework :: Opps",
+    "Framework :: Orionis",
     "Framework :: Paste",
     "Framework :: Pelican",
     "Framework :: Pelican :: Plugins",
